@@ -1,0 +1,102 @@
+.products-container{
+  width : 80%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+body{
+  font-family: 'Vollkorn', serif;
+}
+
+.product-header{
+  width : 93%;
+  display: flex;
+  gap :17%;
+  justify-content: center;
+  border-bottom: 4px solid #F3C86C;
+  margin-bottom: 20px;
+
+}
+.product-header h5{
+  font-size: 0.9rem;
+  font-family: 'Vollkorn', serif;
+  font-style: bold;
+}
+
+.products-container ion-icon{
+  font-size: 25px;
+  color: #F3C86C;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+
+
+}
+.product{
+  display: flex;
+
+}
+.product img{
+  width: 90px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  margin: auto;
+}
+.c{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.cart{
+  position: absolute;
+  z-index: -10;
+  opacity: 0;
+}
+.svg1, .svg2{
+  padding: 0;
+  margin: 0;
+}
+.svg2{
+  bottom: 0;
+}
+.lg,.lg2{
+  font-family: 'Ephesis', cursive;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+
+}
+
+.lg h1{
+    font-size: 1.6rem;
+    padding:10px;
+}
+.lg2 h2{
+    font-size: 0.5rem;
+}
+.basketTotalContainer{
+  max-width: 150px;
+  margin-left: 80%;
+
+}
+.basketTotalContainer h5{
+  border-top: 4px solid #F3C86C;
+}
+.svg2{
+  bottom: 0;
+  position: fixed;
+  z-index: -10;
+}
+@media (max-width:1600px) {
+
+
+
+}
